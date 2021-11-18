@@ -10,7 +10,7 @@
 	},
 	"scripts": {
 		"prestart": "npm run -s build",
-		"start": "node dist/app",
+		"start": "nodemon --exec \"babel-node src/app.js\"",
 		"dev": "nodemon --exec \"babel-node src/app.js\"",
 		"build": "babel src --out-dir dist",
 		"lint": "eslint -c .eslintrc src",
