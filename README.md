@@ -17,3 +17,8 @@ Api web service for MetaCore Starwars API
 
 ### Documentation
 - https://documenter.getpostman.com/view/4900546/UVCCeiRd#063e1d04-0979-4e62-a48f-a969900bf8db
+
+- Run the postman collection on your postman device
+- BASE_URL = https://metacare-starwars-api.herokuapp.com/
+
+- API_KEY = Metacore
